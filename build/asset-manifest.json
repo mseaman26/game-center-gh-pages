@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mseaman26/game-center-gh-pages/static/css/main.bf7fe3eb.css",
+    "main.js": "/mseaman26/game-center-gh-pages/static/js/main.30243a5e.js",
+    "index.html": "/mseaman26/game-center-gh-pages/index.html",
+    "main.bf7fe3eb.css.map": "/mseaman26/game-center-gh-pages/static/css/main.bf7fe3eb.css.map",
+    "main.30243a5e.js.map": "/mseaman26/game-center-gh-pages/static/js/main.30243a5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf7fe3eb.css",
+    "static/js/main.30243a5e.js"
+  ]
+}
