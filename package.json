@@ -44,5 +44,8 @@
       "last 1 safari version"
     ]
   },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "homepage": "https://github.com/mseaman26/game-center-gh-pages"
 }
