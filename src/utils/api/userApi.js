@@ -1,9 +1,11 @@
 import Auth from '../auth';
 
+const baseURL = 'http://3.145.175.188:3001'
+
 /******************     Login 	*******************/
 export const loginApi =  async (userData) => {
 	try {
-		const response = await fetch('/api/users/login', {
+		const response = await fetch(baseURL+'/api/users/login', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
@@ -28,7 +30,7 @@ export const loginApi =  async (userData) => {
 /********    Updates Current User Password 	***************/
 export const updatePassword = async (userData) => {
 	try {
-		const response = await fetch('/api/users/me/password', {
+		const response = await fetch(baseURL+'/api/users/me/password', {
 			method: 'PUT',
 			headers: {
 				'Content-Type': 'application/json',
@@ -53,7 +55,7 @@ export const updatePassword = async (userData) => {
 /********    Updates Current User Info 	***************/
 export const updateUser = async (userData) => {
 	try {
-		const response = await fetch('/api/users/me', {
+		const response = await fetch(baseURL+'/api/users/me', {
 			method: 'PUT',
 			headers: {
 				'Content-Type': 'application/json',
@@ -75,7 +77,7 @@ export const updateUser = async (userData) => {
 /***********     Display All Users 	***************/
 export const showAllUsers = async () => {
 	try {
-		const response = await fetch('/api/users', {
+		const response = await fetch(baseURL+'/api/users', {
 			method: 'GET',
 			headers: {
 				'Content-Type': 'application/json',
@@ -99,7 +101,7 @@ export const showAllUsers = async () => {
 /*************     Creates A New User  ***************/
 export const signupApi = async (userData) => {
 	try {
-		const response = await fetch('/api/users/signup', {
+		const response = await fetch(baseURL+'/api/users/signup', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
@@ -124,7 +126,7 @@ export const signupApi = async (userData) => {
 /********     Updates A User	***************/
 export const updateUserInfo = async (userData) => {
 	try {
-		const response = await fetch(`/api/users/`, {
+		const response = await fetch(baseURL+`/api/users/`, {
 			method: 'PUT',
 			headers: {
 				'Content-Type': 'application/json',
@@ -148,7 +150,7 @@ export const updateUserInfo = async (userData) => {
 /********    Updates A User Password 	***************/
 export const updateUserPassword = async (userData) => {
 	try {
-		const response = await fetch(`/api/users/password`, {
+		const response = await fetch(baseURL+`/api/users/password`, {
 			method: 'PUT',
 			headers: {
 				'Content-Type': 'application/json',
@@ -172,7 +174,7 @@ export const updateUserPassword = async (userData) => {
 /***********   Deletes A User Password 	***************/
 export const deleteUser = async (id) => {
 	try {
-		const response = await fetch(`/api/users/${id}`, {
+		const response = await fetch(baseURL+`/api/users/${id}`, {
 			method: 'DELETE',
 			headers: {
 				'Content-Type': 'application/json',

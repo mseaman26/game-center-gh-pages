@@ -7,14 +7,15 @@ const Nerdle = () => {
     useEffect(() => {
         // Receive the message from the iframe
         const handleMessage = (event) => {
-            console.log(event)
           if (event.data.height) {
             // Adjust the height of the iframe
             const iframe = document.getElementById('nerdleIframe');
             if (iframe) {
-                console.log('iframe')
               iframe.style.height = `${event.data.height}px`;
             }
+          }
+          if(event.data.nerdleNumber){
+            console.log(event.data.nerdleNumber)
           }
         };
     
@@ -26,7 +27,7 @@ const Nerdle = () => {
       }, []);
 
     return(
-        <iframe id='nerdleIframe' src="https://mseaman26.github.io/Mike-s-Nerdle/" title="External Page" />
+        <iframe id='nerdleIframe' src="https://mseaman26.github.io/nerdle-for-game-center/" title="External Page" />
     )
 }
 export default Nerdle
