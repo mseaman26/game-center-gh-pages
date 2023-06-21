@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/game-center-gh-pages/static/css/main.bf7fe3eb.css",
-    "main.js": "/game-center-gh-pages/static/js/main.30243a5e.js",
+    "main.css": "/game-center-gh-pages/static/css/main.1697e408.css",
+    "main.js": "/game-center-gh-pages/static/js/main.69661621.js",
     "index.html": "/game-center-gh-pages/index.html",
-    "main.bf7fe3eb.css.map": "/game-center-gh-pages/static/css/main.bf7fe3eb.css.map",
-    "main.30243a5e.js.map": "/game-center-gh-pages/static/js/main.30243a5e.js.map"
+    "main.1697e408.css.map": "/game-center-gh-pages/static/css/main.1697e408.css.map",
+    "main.69661621.js.map": "/game-center-gh-pages/static/js/main.69661621.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf7fe3eb.css",
-    "static/js/main.30243a5e.js"
+    "static/css/main.1697e408.css",
+    "static/js/main.69661621.js"
   ]
 }
