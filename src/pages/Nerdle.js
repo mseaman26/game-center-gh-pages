@@ -27,7 +27,7 @@ const Nerdle = () => {
       }, []);
 
     return(
-        <iframe id='nerdleIframe' src="https://mseaman26.github.io/nerdle-for-game-center/" title="External Page" />
+        <iframe id='nerdleIframe' src="https://mseaman26.github.io/Mike-s-Nerdle/" title="External Page" />
     )
 }
 export default Nerdle
